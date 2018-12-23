@@ -1,0 +1,26 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+/**
+  This class connects the view, presenter, and way numerous classes with each other.
+*/
+class {{ module_info.name }}ModuleInitializer: NSObject {
+
+    /// **Usage:**
+    /// let vc = {{ module_info.name | downcase }}ViewController.{{ module_info.name }}ViewController()
+    /// myAwesomePresentFunction(vc)
+    public lazy var {{ module_info.name | downcase }}ViewController = {{ module_info.name }}ViewController()
+    override init() {
+    	super.init()
+    	let configurator = {{ module_info.name }}ModuleConfigurator()
+      configurator.configureModuleForViewInput(viewInput: {{ module_info.name | downcase }}ViewController)
+    }
+
+}

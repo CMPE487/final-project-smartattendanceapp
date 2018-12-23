@@ -1,0 +1,27 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+
+/// This is an example view. This view is going to be deleted, probably.
+/// However, CustomView is responsible for creating reusable views for the related View Controller.
+/// Hence, if you are going to use the same view, again and again, create a custom view in here and use it.
+class MyPreciousCustomView: BaseView {
+  public lazy var myAwesomeButton: BaseButton = {
+    let baseButton = BaseButton()
+    // Super Awesome Configs about myAwesomeButton goes here.
+    return baseButton
+  }()
+
+  internal override func setupView() {
+
+  }
+
+  internal override func setupAnchor() {
+
+  }
+}

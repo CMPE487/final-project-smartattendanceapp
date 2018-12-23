@@ -1,0 +1,33 @@
+### Headers settings
+company: Korhan Çağın Geboloğlu
+
+### Xcode project settings
+project_name: SmartAttendance
+xcodeproj_path: SmartAttendance.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: SmartAttendance
+
+# The file path for new modules
+project_file_path: SmartAttendance
+
+# The Xcode group path to new modules
+project_group_path: SmartAttendance
+
+### Tests generation settings section
+# The tests target name
+test_target: SmartAttendanceTests
+
+# The file path for new tests
+test_file_path: SmartAttendanceTests
+
+# The Xcode group path to new tests
+test_group_path: SmartAttendanceTests
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: swifty_viper}

@@ -1,0 +1,24 @@
+PODS:
+  - DynamicBlurView (2.0.2)
+  - IQKeyboardManagerSwift (6.0.5)
+  - PopupDialog (0.8.1):
+    - DynamicBlurView (~> 2.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - PopupDialog
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DynamicBlurView
+    - IQKeyboardManagerSwift
+    - PopupDialog
+
+SPEC CHECKSUMS:
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  IQKeyboardManagerSwift: c14eca30f6001457d6ddf25e313f23fb6578c41c
+  PopupDialog: 3d4e8e0795c3a614f407d730986c9b9af9781123
+
+PODFILE CHECKSUM: 1ceece6f1ccde9b5a0efd1f18d5167c1cb10b47a
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,19 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+// After filling the InteractorInput and InteractorOutput classes, this class must be filled by the programmer.
+class {{ module_info.name }}Interactor: {{ module_info.name }}InteractorInput {
+    weak var output: {{ module_info.name }}InteractorOutput!
+{% if custom_parameters.repoVal == "true" %}
+    weak var repository: {{ module_info.name }}RepositoryInput!
+{% endif %}
+    func fetchData() {
+
+    }
+
+}
